@@ -44,16 +44,4 @@ app.use(function(err, req, res, next) {
 });
 
 
-app.listen(3000,function(err){
-    if(err){
-        console.log(err);
-    }
-});
-
-
-app.get('/',function(req, res){
-    res.send('hello world');
-})
-
-
 module.exports = app;
